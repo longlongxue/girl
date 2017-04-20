@@ -1,0 +1,15 @@
+server:
+#  context-path: /girl
+  port: 8080
+
+#测试属性参数如何取
+cupSize: B
+age: 19
+
+#测试在配置文件中读取配置文件
+content: "cupSize: ${cupSize},age: ${age}"
+
+#测试类对象的属性配置
+girl:
+  cupSize: C
+  age: 20
